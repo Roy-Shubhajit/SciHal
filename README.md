@@ -14,3 +14,8 @@
    ./run_phrases.sh papers.txt --key {your semantic scholar key} --rev_author_dict_path {path to reverse author directory}
    ```
 This will update the number of correct and wrong predictions based on the year, authors, and verification of the response. 
+6. To check the existence of the paper in the dataset, run the following command:
+   ```bash
+   chmod +x run_dataset_search.sh
+   ./run_dataset_search.sh papers.txt --paper_dict_path {path to paper directory}
+   ```
