@@ -19,3 +19,5 @@
    ./run_dataset_search.sh papers.txt --paper_dict_path {path to paper directory}
    ```
 This will update the number of correct and wrong predictions based on the year, authors, and verification of the response. 
+
+The 3 JSON files can be increased for better local search.
