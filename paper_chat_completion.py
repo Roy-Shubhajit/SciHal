@@ -18,6 +18,7 @@ nlp = spacy.load("en_core_web_sm")
 def main(
     ckpt_dir: str,
     tokenizer_path: str,
+    paper_dict_path: str
     phrase: str,
     temperature: float = 0.6,
     top_p: float = 0.9,
@@ -47,7 +48,7 @@ def main(
         max_batch_size=max_batch_size,
     )
 
-    with open('/hdfs1/Data/Shubhajit/Halucination Project/new_paper_dict.json') as json_file:
+    with open(paper_dict_path) as json_file:
         paper_dict = json.load(json_file)
 
     dialogs: List[Dialog] = [
@@ -61,6 +62,7 @@ def main(
         top_p=top_p,
     )
 
+    
     for dialog, result in zip(dialogs, results):
         #for msg in dialog:
             #print(f"{msg['role'].capitalize()}: {msg['content']}\n")
@@ -104,10 +106,20 @@ def main(
             print(f"Generated Title: {new_title}")
             print(f"Generated Authors: {authors}")
             print("No match found in the dict. Similar papers are:")
+            with open('count/paper_count_wrong.txt', 'r') as f:
+                count = int(f.read())
+            count += 1
+            with open('count/paper_count_wrong.txt', 'w') as f:
+                f.write(str(count))
             for paper in sim_score:
                 paper_title = paper_dict[paper]["title"]
                 print(f"{paper_title}: {sim_score[paper]}")
         else:
+            with open('paper_count_year_right.txt', 'r') as f:
+                count = int(f.read())
+            count += 1
+            with open('count/paper_count_year_right.txt', 'w') as f:
+                f.write(str(count))
             print(f"Generated Title: {new_title}")
             print(f"Generated Authors: {authors}\n")
             print(f"Match found in the dict: {paper}")
