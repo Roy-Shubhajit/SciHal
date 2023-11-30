@@ -1,0 +1,436 @@
+{
+    "000f90380d768a85e2316225854fc377c079b5c4": {
+        "title": "Full-Resolution Residual Networks for Semantic Segmentation in Street Scenes",
+        "authors": [
+            "Tobias Pohlen",
+            "Alexander Hermans",
+            "Markus Mathias",
+            "B. Leibe"
+        ],
+        "abstract": "Semantic image segmentation is an essential component of modern autonomous driving systems, as an accurate understanding of the surrounding scene is crucial to navigation and action planning. Current state-of-the-art approaches in semantic image segmentation rely on pre-trained networks that were initially developed for classifying images as a whole. While these networks exhibit outstanding recognition performance (i.e., what is visible?), they lack localization accuracy (i.e., where precisely is something located?). Therefore, additional processing steps have to be performed in order to obtain pixel-accurate segmentation masks at the full image resolution. To alleviate this problem we propose a novel ResNet-like architecture that exhibits strong localization and recognition performance. We combine multi-scale context with pixel-level accuracy by using two processing streams within our network: One stream carries information at the full image resolution, enabling precise adherence to segment boundaries. The other stream undergoes a sequence of pooling operations to obtain robust features for recognition. The two streams are coupled at the full image resolution using residuals. Without additional processing steps and without pre-training, our approach achieves an intersection-over-union score of 71.8% on the Cityscapes dataset."
+    },
+    "00111610254bfb8ec16428501c2ca68dcf817474": {
+        "title": "Learning from Bullying Traces in Social Media",
+        "authors": [
+            "Junming Xu",
+            "Kwang-Sung Jun",
+            "Xiaojin Zhu",
+            "Amy Bellmore"
+        ],
+        "abstract": "We introduce the social study of bullying to the NLP community. Bullying, in both physical and cyber worlds (the latter known as cyberbullying), has been recognized as a serious national health issue among adolescents. However, previous social studies of bullying are handicapped by data scarcity, while the few computational studies narrowly restrict themselves to cyberbullying which accounts for only a small fraction of all bullying episodes. Our main contribution is to present evidence that social media, with appropriate natural language processing techniques, can be a valuable and abundant data source for the study of bullying in both worlds. We identify several key problems in using such data sources and formulate them as NLP tasks, including text classification, role labeling, sentiment analysis, and topic modeling. Since this is an introductory paper, we present baseline results on these tasks using off-the-shelf NLP solutions, and encourage the NLP community to contribute better models in the future."
+    },
+    "0018a0b35ede8900badee90f4c44385205baf2e5": {
+        "title": "Implementation of PID controller and pre-filter to control non-linear ball and plate system",
+        "authors": [
+            "Agung Adiprasetya",
+            "A. Wibowo"
+        ],
+        "abstract": "In this paper, the authors try to make PID controller with Pre-filter that is implemented at ball and plate system. Ball and plate system will control the position of ball's axis in pixels value by using servo motor as its actuator and webcam as its sensor of position. PID controller with Pre-filter will have a better response than conventional PID controller. Eventhough the response of PID with Pre-filter is slower than conventional PID, the effect of Pre-filter in the system will give the less overshoot response."
+    },
+    "0024559c0758fd680a5ab777348f4a740b8c7323": {
+        "title": "Persistent Point Feature Histograms for 3 D Point Clouds",
+        "authors": [
+            "R. Rusu",
+            "Zolt\u00e1n M\u00e1rton",
+            "Nico Blodow"
+        ],
+        "abstract": "This paper proposes a novel way of characterizing the local geometry of 3D points, using persistent feature histograms. The relationships between the neighbors of a point are analyzed and the resulted values are stored in a 16-bin histogram. The histograms are pose and point cloud density invariant and cope well with noisy datasets. We show that geometric primitives have unique signatures in this feature space, preserved even in the presence of additive noise. To extract a compact subset of points which characterizes a point cloud dataset, we perform an in-depth analysis of all point feature histograms using different distance metrics. Preliminary results show that point clouds can be roughly segmented based on the uniqueness of geometric primitives feature histograms. We validate our approach on datasets acquired from laser sensors in indoor (kitchen) environments."
+    },
+    "0029244f210e2cb4fffb415e68907c6294a5c514": {
+        "title": "Enterprise Resource Planning (ERP): a review of the literature",
+        "authors": [
+            "Y. Moon"
+        ],
+        "abstract": "This article is a review of work published in various journals on the topics of Enterprise Resource Planning (ERP) between January 2000 and May 2006. A total of 313 articles from 79 journals are reviewed. The article intends to serve three goals. First, it will be useful to researchers who are interested in understanding what kinds of questions have been addressed in the area of ERP. Second, the article will be a useful resource for searching for research topics. Third, it will serve as a comprehensive bibliography of the articles published during the period. The literature is analysed under six major themes and nine sub-themes."
+    },
+    "002f47f4b4e5a78fac785099f5b42f55c196676c": {
+        "title": "A Short History of Computational Complexity",
+        "authors": [
+            "L. Fortnow",
+            "Steven C. Homer"
+        ],
+        "abstract": "It all started with a machine. In 1936, Turing developed his theoretical computational model. He based his model on how he perceived mathematicians think. As digital computers were developed in the 40\u2019s and 50\u2019s, the Turing machine proved itself as the right theoretical model for computation. Quickly though we discovered that the basic Turing machine model fails to account for the amount of time or memory needed by a computer, a critical issue today but even more so in those early days of computing. The key idea to measure time and space as a function of the length of the input came in the early 1960\u2019s by Hartmanis and Stearns. And thus computational complexity was born. In the early days of complexity, researchers just tried understanding these new measures and how they related to each other. We saw the first notion of efficient computation by using time polynomial in the input size. This led to complexity\u2019s most important concept, NP-completeness, and its most fundamental question, whether P = NP. The work of Cook and Karp in the early 70\u2019s showed a large number of combinatorial and logical problems were NP-complete, i.e., as hard as any problem computable in nondeterministic polynomial time. The P = NP question is equivalent to an efficient solution of any of these problems. In the thirty years hence this problem has become one of the outstanding open questions in computer science and indeed all of mathematics. In the 70\u2019s we saw the growth of complexity classes as researchers tried to encompass different models of computations. One of those models, probabilistic computation, started with a probabilistic test for primality, led to probabilistic complexity classes and a new kind of interactive proof system that itself led to hardness results for approximating certain NP-complete problems. We have also seen strong evidence that we can remove the randomness from computations and most recently a deterministic algorithm for the original primality problem. In the 80\u2019s we saw the rise of finite models like circuits that capture computation in an inherently different way. A new approach to problems like P = NP arose from these circuits and though they have had limited success in separating complexity classes, this approach brought combinatorial techniques into the area and led to a much better understanding of the limits of these devices. \u2217URL: http://www.neci.nj.nec.com/homepages/fortnow. Email: fortnow@research.nj.nec.com. \u2020URL: http://www.cs.bu.edu/faculty/homer. Email: homer@cs.bu.edu. Supported in part by the NSF under grant NSF-CCR-998310 and by the ARO under grant DAAD19-02-1-0058."
+    },
+    "00311d4a5ed649f720589a580c38d4035bfc65ea": {
+        "title": "Citances : Citation Sentences for Semantic Analysis of Bioscience Text",
+        "authors": [
+            "Preslav Nakov"
+        ],
+        "abstract": "We propose the use of the text of the sentences surrounding citations as an important tool for semantic interpretation of bioscience text. We hypothesize several different uses of citation sentences (which we call citances), including the creation of training and testing data for semantic analysis (especially for entity and relation recognition), synonym set creation, database curation, document summarization, and information retrieval generally. We illustrate some of these ideas, showing that citations to one document in particular align well with what a hand-built curator extracted. We also show preliminary results on the problem of normalizing the different ways that the same concepts are expressed within a set of citances, using and improving on existing techniques in automatic paraphrase generation."
+    },
+    "003140e734f71c9601e756a2d131a44ebe3f63b2": {
+        "title": "Platforms rules : multi-sided platforms as regulators",
+        "authors": [
+            "K. Boudreau",
+            "Andrei Hagiu"
+        ],
+        "abstract": "In 1983, the videogame market in the USA collapsed, leading to bankruptcy for more than 90 percent of game developers, as well as Atari, manufacturer of the dominant game console at the time. The main reason was a \u2018lemons\u2019 market failure: because it had not developed a technology for locking out unauthorized games, Atari was unable to prevent the entry of opportunistic developers, who flooded the market with poor-quality games. At a time when consumers had few ways to distinguish good from bad games, bad games drove out good ones. The videogame market was resurrected six years later only when Nintendo entered with a set of draconian policies to regulate third-party developers more tightly. Central to Nintendo\u2019s strategy was the use of a security chip designed to lock out any game not directly approved by Nintendo. Twenty-five years later, in the summer of 2008, Apple launched the iPhone store (a digital store of third-party applications for its immensely popular iPhone) at a time when lemons problems had become less of an issue, with widely available reviews and ratings available on the Internet. Even so, Apple reserved the right to verify and exclude any third-party application it did not deem appropriate. And it exerted that right swiftly by taking down an application named \u2018I Am Rich\u2019, which cost $999 (the maximum price allowed by Apple), while doing nothing more than presenting a glowing ruby on the buyer\u2019s iPhone screen. Apple also kicked out Podcaster, an application that would allow users to download podcasts without going through iTunes store. The Atari, Nintendo and Apple examples illustrate instances in which non-price instruments were a critical part of strategy for multi-sided platforms (MSPs) \u2013 platforms that enable interactions between multiple groups of surrounding consumers and \u2018complementors\u2019.2 This chapter provides a general and basic conceptual framework for interpreting non-price instruments, which analogizes MSPs as private regulators; and"
+    },
+    "0034f4542269d165bc4c12925ce42b1d30d3b7ef": {
+        "title": "A Survey on Botnet Architectures, Detection and Defences",
+        "authors": [
+            "Muhammad M. A. S. Mahmoud",
+            "M. Nir",
+            "A. Matrawy"
+        ],
+        "abstract": "Botnets are known to be one of the most serious Internet security threats. In this survey, we review botnet architectures and their controlling mechanisms. Botnet infection behavior is explained. Then, known botnet models are outlined to study botnet design. Furthermore, Fast-Flux Service Networks (FFSN) are discussed in great details as they play an important role in facilitating botnet traffic. We classify botnets based on their architecture. Our classification criterion relies on the underlying C&C (Command and Control) protocol and thus botnets are classified as IRC (Internet Relay Chat), HTTP (HyperText Transfer Protocol), P2P (Peer-to-Peer), and POP3 (Post Office Protocol 3) botnets. In addition, newly emerging types of botnets are surveyed. This includes SMS & MMS mobile botnet and the botnets that abuse the online social networks. In term of detection methods, we categorize detection methods into three main groups, namely: (1) traffic behavior detection -in which we classify botnet traffic into; C&C traffic, bot generated traffic, and DNS traffic, (2) botmaster traceback detection, and (3) botnet detection using virtual machines. Finally, we summarize botnet defence measures that should be taken after detecting a botnet."
+    },
+    
+    
+    "1b9f2a7be92eca221ab213de092a9ce0788ccd45": {
+        "title": "A Formal Technique for Automated Dialogue Development",
+        "authors": [
+            "G. Abowd",
+            "H. Y. Wang",
+            "A. Monk"
+        ],
+        "abstract": "A number of notations exist by which a designer can specify the behavior of a human-computer interface in relatively formal terms. In this paper we show how many of the dialogue specifications described using these notations are amenable to automated analysis to detect potential problems such as user actions that are never enabled or have effects that are hard to reverse. In many situations, a dialogue specification can be thought of as a finite state machine in which the transition between states is signalled as an event from the user or system. The trouble with this state transition model is that states quickly multiply presenting two problems to the analyst: (i) how to easily describe all of the possible dialogue states and state transitions; and (ii) how to analyze a very large SIN. This paper reviews possible solutions to both of these problems. A tabular interface to Olsen\u2019s Propositional Production System is described and goes some way towards solving the descriptive problem. This representation is also useful for simulating requirements scenarios in a validation exercise. For the analytic problem, we make use of finite state model checking technology that allows for automated analysis of very large state machines. We demonstrate how eight categories of dialogue verification properties can be analyzed with this approach. Together, dialogue simulation and automated verification leads to a more complete analytic framework for dialogue development."
+    },
+    "1b9f634413200230901282f4c849aa30d61f63a1": {
+        "title": "Structured Spreadsheet Modelling and Implementation with Multiple Dimensions - Part 1: Modelling",
+        "authors": [
+            "P. Mireault"
+        ],
+        "abstract": "Dimensions are an integral part of many models we use every day. Without thinking about it, we frequently use the time dimension: many financial and accounting spreadsheets have columns representing months or years. Representing a second dimension is often done by repeating blocs of formulas in a worksheet of creating multiple worksheets with the same structure."
+    },
+    "1ba1de0f143bd3166c9961acc869e123651d9836": {
+        "title": "Deep learning with support vector data description",
+        "authors": [
+            "Sangwook Kim",
+            "Yonghwa Choi",
+            "M. Lee"
+        ],
+        "abstract": "One of the most critical problems for machine learning methods is overfitting. The overfitting problem is a phenomenon in which the accuracy of the model on unseen data is poor whereas the training accuracy is nearly perfect. This problem is particularly severe in complex models that have a large set of parameters. In this paper, we propose a deep learning neural network model that adopts the support vector data description (SVDD). The SVDD is a variant of the support vector machine, which has high generalization performance by acquiring a maximal margin in one-class classification problems. The proposed model strives to obtain the representational power of deep learning. Generalization performance is maintained using the SVDD. The experimental results showed that the proposed model can learn multiclass data without severe overfitting problems."
+    },
+    "1ba2831a91393f3f1fab48dddd93fe173f8d1c04": {
+        "title": "Agent-Based Distributed Learning Applied to Fraud Detection",
+        "authors": [
+            "A. Prodromidis",
+            "S. Stolfo"
+        ],
+        "abstract": "Inductive learning and classification techniques have been applied in many problems in diverse areas. In this paper we describe an AI-based approach that combines inductive learning algorithms and meta-learning methods as a means to compute accurate classification models for detecting electronic fraud. Inductive learning algorithms are used to compute detectors of anomalous or errant behavior over inherently distributed data sets and meta-learning methods integrate their collective knowledge into higher level classification models or meta-classifiers. By supporting the exchange of models or classifier agents among data sites, our approach facilitates the cooperation between financial organizations and provides unified and cross-institution protection mechanisms against fraudulent transactions. Through experiments performed on actual credit card transaction data supplied by two different financial institutions, we evaluate this approach and we demonstrate its utility."
+    },
+    "1ba77164225515320452654e7b665a4e01cafd2b": {
+        "title": "Total Recall: System Support for Automated Availability Management",
+        "authors": [
+            "Ranjita Bhagwan",
+            "K. Tati",
+            "Yuchung Cheng",
+            "S. Savage",
+            "G. Voelker"
+        ],
+        "abstract": "Goal: Highly available data storage in large-scale distributed systems in which * Hosts are transiently inaccessible * Individual host failures are common Current peer-to-peer systems are prime examples * Highly dynamic, challenging environment * hosts join and leave frequently in short-term * Hosts leave permanently over long-term * Workload varies in terms of popularity, access patterns, file size These systems require automated availability management."
+    },
+    "1ba77318d9de2b74d34d5cd2c1d2d00d17e668d4": {
+        "title": "BotGAD: detecting botnets by capturing group activities in network traffic",
+        "authors": [
+            "Hyunsang Choi",
+            "H. Lee",
+            "H. Kim"
+        ],
+        "abstract": "Recent malicious attempts are intended to obtain financial benefits using a botnet which has become one of the major Internet security problems. Botnets can cause severe Internet threats such as DDoS attacks, identity theft, spamming, click fraud. In this paper, we define a group activity as an inherent property of the botnet. Based on the group activity model and metric, we develop a botnet detection mechanism, called BotGAD (Botnet Group Activity Detector). BotGAD enables to detect unknown botnets from large scale networks in real-time. Botnets frequently use DNS to rally infected hosts, launch attacks and update their codes. We implemented BotGAD using DNS traffic and showed the effectiveness by experiments on real-life network traces. BotGAD captured 20 unknown and 10 known botnets from two day campus network traces."
+    },
+    "1ba779d5a5c9553ee8ecee5cf6bafb4b494ea7bc": {
+        "title": "On lightweight mobile phone application certification",
+        "authors": [
+            "W. Enck",
+            "Machigar Ongtang",
+            "Patrick C. McDaniel"
+        ],
+        "abstract": "Users have begun downloading an increasingly large number of mobile phone applications in response to advancements in handsets and wireless networks. The increased number of applications results in a greater chance of installing Trojans and similar malware. In this paper, we propose the Kirin security service for Android, which performs lightweight certification of applications to mitigate malware at install time. Kirin certification uses security rules, which are templates designed to conservatively match undesirable properties in security configuration bundled with applications. We use a variant of security requirements engineering techniques to perform an in-depth security analysis of Android to produce a set of rules that match malware characteristics. In a sample of 311 of the most popular applications downloaded from the official Android Market, Kirin and our rules found 5 applications that implement dangerous functionality and therefore should be installed with extreme caution. Upon close inspection, another five applications asserted dangerous rights, but were within the scope of reasonable functional needs. These results indicate that security configuration bundled with Android applications provides practical means of detecting malware."
+    },
+    "1ba7a9c0e658a0d98253f999bf43c2e98c07f4e0": {
+        "title": "Real-time visual tracking using compressive sensing",
+        "authors": [
+            "Hanxi Li",
+            "Chunhua Shen",
+            "Javen Qinfeng Shi"
+        ],
+        "abstract": "The \u21131 tracker obtains robustness by seeking a sparse representation of the tracking object via \u21131 norm minimization. However, the high computational complexity involved in the \u21131 tracker may hamper its applications in real-time processing scenarios. Here we propose Real-time Com-pressive Sensing Tracking (RTCST) by exploiting the signal recovery power of Compressive Sensing (CS). Dimensionality reduction and a customized Orthogonal Matching Pursuit (OMP) algorithm are adopted to accelerate the CS tracking. As a result, our algorithm achieves a realtime speed that is up to 5,000 times faster than that of the \u21131 tracker. Meanwhile, RTCST still produces competitive (sometimes even superior) tracking accuracy compared to the \u21131 tracker. Furthermore, for a stationary camera, a refined tracker is designed by integrating a CS-based background model (CSBM) into tracking. This CSBM-equipped tracker, termed RTCST-B, outperforms most state-of-the-art trackers in terms of both accuracy and robustness. Finally, our experimental results on various video sequences, which are verified by a new metric \u2014 Tracking Success Probability (TSP), demonstrate the excellence of the proposed algorithms."
+    },
+    "1ba8348a65dcb8da96fb1cfe81d4762d17a99520": {
+        "title": "Learning from Explicit and Implicit Supervision Jointly For Algebra Word Problems",
+        "authors": [
+            "Shyam Upadhyay",
+            "Ming-Wei Chang",
+            "Kai-Wei Chang",
+            "W. Katherine Yih"
+        ],
+        "abstract": "Automatically solving algebra word problems has raised considerable interest recently. Existing state-of-the-art approaches mainly rely on learning from human annotated equations. In this paper, we demonstrate that it is possible to efficiently mine algebra problems and their numerical solutions with little to no manual effort. To leverage the mined dataset, we propose a novel structured-output learning algorithm that aims to learn from both explicit (e.g., equations) and implicit (e.g., solutions) supervision signals jointly. Enabled by this new algorithm, our model gains 4.6% absolute improvement in accuracy on the ALG514 benchmark compared to the one without using implicit supervision. The final model also outperforms the current state-of-the-art approach by 3%."
+    },
+    "1ba84863e2685c45c5c41953444d9383dc7aa13b": {
+        "title": "Efficient Support Vector Classifiers for Named Entity Recognition",
+        "authors": [
+            "Hideki Isozaki",
+            "H. Kazawa"
+        ],
+        "abstract": "NamedEntity (NE) recognitionis a task in which proper nouns and numerical information are extractedfrom documentsandareclassifiedinto categoriessuchas person,organization,and date. It is a key technologyof InformationExtractionand Open-DomainQuestionAnswering.First,weshow thatanNE recognizerbasedonSupportVectorMachines(SVMs)givesbetterscoresthanconventional systems.However, off-the-shelfSVM classifiersare too inefficient for this task.Therefore,we presenta methodthat makes the systemsubstantiallyfaster . This approachcan also be applied to other similar taskssuchaschunkingandpart-of-speechtagging. We alsopresentanSVM-basedfeatureselection methodandanefficient trainingmethod."
+    },
+    "1ba9063c44ede69df87f171f16787253b1ef05b6": {
+        "title": "Ensemble GradientBoost for increasing classification accuracy of credit scoring",
+        "authors": [
+            "A. Lawi",
+            "F. Aziz",
+            "S. Syarif"
+        ],
+        "abstract": "The method for Credit Scoring has been developed to select a better model in predicting credit risk. Data mining methods are superior to the statistical methods of dealing with Credit Scoring issues, especially for nonlinear relationships between variables. By flashing the ensemble method with statistical methods, proven to achieve a higher level of accuracy than the method of data mining. This paper proposes a credit scoring algorithm using Ensemble Logistic Regression by boosting the method using the GradientBoost algorithm. Two datasets for implementing the algorithm, i.e., German and Australian Dataset. The results showed that GradientBoost Ensemble managed to improve the performance of a single classification Logistic Regression and achieve the highest level of accuracy in both datasets. The proposed method produces accuracy of 81% for German datasets and 88.4% for Australian datasets."
+    },
+    "1ba9363080a3014a5d793aa9455e8db32478b7cc": {
+        "title": "On a Methodology for Robust Segmentation of Nonideal Iris Images",
+        "authors": [
+            "Jinyu Zuo",
+            "N. Schmid"
+        ],
+        "abstract": "Iris biometric is one of the most reliable biometrics with respect to performance. However, this reliability is a function of the ideality of the data. One of the most important steps in processing nonideal data is reliable and precise segmentation of the iris pattern from remaining background. In this paper, a segmentation methodology that aims at compensating various nonidealities contained in iris images during segmentation is proposed. The virtue of this methodology lies in its capability to reliably segment nonideal imagery that is simultaneously affected with such factors as specular reflection, blur, lighting variation, occlusion, and off-angle images. We demonstrate the robustness of our segmentation methodology by evaluating ideal and nonideal data sets, namely, the Chinese Academy of Sciences iris data version 3 interval subdirectory, the iris challenge evaluation data, the West Virginia University (WVU) data, and the WVU off-angle data. Furthermore, we compare our performance to that of our implementation of Camus and Wildes's algorithm and Masek's algorithm. We demonstrate considerable improvement in segmentation performance over the formerly mentioned algorithms."
+    },
+    "1bac66f8071dee851fd08fb022a2297cc3418a7e": {
+        "title": "Classification and Algorithmic Management of Constricted Ears: A 22-Year Experience.",
+        "authors": [
+            "C. Park",
+            "J. Park"
+        ],
+        "abstract": "BACKGROUND\nThe classification and corrective methods for the constricted ears continue to be controversial. To clarify them, the authors have reviewed and analyzed cases operated on at their Center from January of 1992 to January of 2014.\n\n\nMETHODS\nA total of 164 ear cases (involving 139 patients), showing features of lidded helix, compression of scapha and fossa triangularis, and/or cup-like protrusions, were included in their study (microtias with constricted ear features were excluded) and reviewed through medical records, photographs, analysis of surgical methods, and postoperative outcomes.\n\n\nRESULTS\nThe deformed ears were classified into four graded types by means of the antihelical tubing test and the scapha-helix push test as follows: type I (n = 21), type II (n = 63), type III (n = 38), and type IV (n = 42). Throughout this series, the authors have continued the improvement and performance of consistent operative techniques. Antihelical tubing, concha cartilage grafting, tumbling concha-cartilage flap, antihelical wrapping, and helical expansion were the preferred techniques. A total of 144 ear cases (88 percent) were followed for 1 month to 14 years (average, 13.2 months). The average score of aesthetic outcomes, rated on a four-point Likert scale (i.e., 1 = poor, 2 = fair, 3 = good, and 4 = excellent), was 3.3. Corrective methods and aesthetic outcomes for patients with each graded type of deformity were described.\n\n\nCONCLUSIONS\nConstricted ears were effectively corrected by a graded surgical approach. All corrections were performed in one stage, without removal of deformed auricular cartilage.\n\n\nCLINICAL QUESTION/LEVEL OF EVIDENCE\nTherapeutic, IV."
+    },
+    "1bad3e9f15df77f06ae449bba17f9e85a3bb9187": {
+        "title": "Centroid-based summarization of multiple documents: sentence extraction utility-based evaluation, and user studies",
+        "authors": [
+            "Dragomir R. Radev",
+            "Hongyan Jing",
+            "M. Budzikowska"
+        ],
+        "abstract": "We present a multi-document summarizer, called MEAD, which generates summaries using cluster centroids produced by a topic detection and tracking system. We also describe two new techniques, based on sentence utility and subsumption, which we have applied to the evaluation of both single and multiple document summaries. Finally, we describe two user studies that test our models of multi-document summarization."
+    },
+    "1bae60fde4efc97c039fba9bc4b8bcee3c66d67b": {
+        "title": "Bayesian Biosurveillance of Disease Outbreaks",
+        "authors": [
+            "G. Cooper",
+            "D. Dash",
+            "J. Levander",
+            "Weng-Keen Wong",
+            "W. Hogan",
+            "M. Wagner"
+        ],
+        "abstract": "Early, reliable detection of disease outbreaks is a critical problem today. This paper reports an investigation of the use of causal Bayesian networks to model spatio-temporal patterns of a non-contagious disease (respiratory anthrax infection) in a population of people. The number of parameters in such a network can become enormous, if not carefully managed. Also, inference needs to be performed in real time as population data stream in. We describe techniques we have applied to address both the modeling and inference challenges. A key contribution of this paper is the explication of assumptions and techniques that are sufficient to allow the scaling of Bayesian network modeling and inference to millions of nodes for real-time surveillance applications. The results reported here provide a proof-of-concept that Bayesian networks can serve as the foundation of a system that effectively performs Bayesian biosurveillance of disease outbreaks."
+    },
+    "1bb0d50f82dde52d29045240f123b87db1d0ec1f": {
+        "title": "A SURE Approach for Digital Signal/Image Deconvolution Problems",
+        "authors": [
+            "J. Pesquet",
+            "A. Benazza-Benyahia",
+            "C. Chaux"
+        ],
+        "abstract": "In this paper, we are interested in the classical problem of restoring data degraded by a convolution and the addition of a white Gaussian noise. The originality of the proposed approach is twofold. First, we formulate the restoration problem as a nonlinear estimation problem leading to the minimization of a criterion derived from Stein's unbiased quadratic risk estimate. Secondly, the deconvolution procedure is performed using any analysis and synthesis frames that can be overcomplete or not. New theoretical results concerning the calculation of the variance of the Stein's risk estimate are also provided in this work. Simulations carried out on natural images show the good performance of our method with respect to conventional wavelet-based restoration methods."
+    },
+    "1bb1aa8cb59b82c735ebdcf9250f30614534eb88": {
+        "title": "A Provably Secure True Random Number Generator with Built-In Tolerance to Active Attacks",
+        "authors": [
+            "B. Sunar",
+            "W. Martin",
+            "Douglas R Stinson"
+        ],
+        "abstract": "This paper is a contribution to the theory of true random number generators based on sampling phase jitter in oscillator rings. After discussing several misconceptions and apparently insurmountable obstacles, we propose a general model which, under mild assumptions, will generate provably random bits with some tolerance to adversarial manipulation and running in the megabit-per-second range. A key idea throughout the paper is the fill rate, which measures the fraction of the time domain in which the analog output signal is arguably random. Our study shows that an exponential increase in the number of oscillators is required to obtain a constant factor improvement in the fill rate. Yet, we overcome this problem by introducing a postprocessing step which consists of an application of an appropriate resilient function. These allow the designer to extract random samples only from a signal with only moderate fill rate and, therefore, many fewer oscillators than in other designs. Last, we develop fault-attack models and we employ the properties of resilient functions to withstand such attacks. All of our analysis is based on rigorous methods, enabling us to develop a framework in which we accurately quantify the performance and the degree of resilience of the design"
+    },
+    "1bb46f9304ea6ed30ac7c8c8591e5608839bbe1a": {
+        "title": "Deep Fragment Embeddings for Bidirectional Image Sentence Mapping",
+        "authors": [
+            "A. Karpathy",
+            "Armand Joulin",
+            "L. Fei-Fei"
+        ],
+        "abstract": "We introduce a model for bidirectional retrieval of images and sentences through a deep, multi-modal embedding of visual and natural language data. Unlike previous models that directly map images or sentences into a common embedding space, our model works on a finer level and embeds fragments of images (objects) and fragments of sentences (typed dependency tree relations) into a common space. We then introduce a structured max-margin objective that allows our model to explicitly associate these fragments across modalities. Extensive experimental evaluation shows that reasoning on both the global level of images and sentences and the finer level of their respective fragments improves performance on image-sentence retrieval tasks. Additionally, our model provides interpretable predictions for the image-sentence retrieval task since the inferred inter-modal alignment of fragments is explicit."
+    },
+    "1bbb2c63c35e1d0836feb4a133f00c56cb52b761": {
+        "title": "Efficient elasticity for character skinning with contact and collisions",
+        "authors": [
+            "Aleka McAdams",
+            "Yongning Zhu",
+            "Andrew Selle",
+            "M. Empey",
+            "Rasmus Tamstorf",
+            "Julio C. Ter\u00e1n",
+            "Eftychios Sifakis"
+        ],
+        "abstract": "We present a new algorithm for near-interactive simulation of skeleton driven, high resolution elasticity models. Our methodology is used for soft tissue deformation in character animation. The algorithm is based on a novel discretization of corotational elasticity over a hexahedral lattice. Within this framework we enforce positive definiteness of the stiffness matrix to allow efficient quasistatics and dynamics. In addition, we present a multigrid method that converges with very high efficiency. Our design targets performance through parallelism using a fully vectorized and branch-free SVD algorithm as well as a stable one-point quadrature scheme. Since body collisions, self collisions and soft-constraints are necessary for real-world examples, we present a simple framework for enforcing them. The whole approach is demonstrated in an end-to-end production-level character skinning system."
+    },
+    "1bbdf4002d302311e2ee44bfc9421732b3a5aa1f": {
+        "title": "Imagining predictions: mental imagery as mental emulation.",
+        "authors": [
+            "Samuel T. Moulton",
+            "S. Kosslyn"
+        ],
+        "abstract": "We argue that the primary function of mental imagery is to allow us to generate specific predictions based upon past experience. All imagery allows us to answer 'what if' questions by making explicit and accessible the likely consequences of being in a specific situation or performing a specific action. Imagery is also characterized by its reliance on perceptual representations and activation of perceptual brain systems. We use this conception of imagery to argue that all imagery is simulation-more specifically, it is a specific type of simulation in which the mental processes that 'run' the simulation emulate those that would actually operate in the simulated scenario. This type of simulation, which we label emulation, has benefits over other types of simulations that merely mimic the content of the simulated scenario."
+    },
+    "1bbe7f68d48181a8fadfd1eb7b6eed140f49d1d6": {
+        "title": "Fast image stitching and editing for panorama painting on mobile phones",
+        "authors": [
+            "Yingen Xiong",
+            "K. Pulli"
+        ],
+        "abstract": "We propose a fast image stitching and editing approach for panorama painting and have implemented it on a mobile phone. A seam search using dynamic programming finds a good boundary along which to merge the source images, and a transition smoothing process using instant image cloning removes merging artifacts, yielding highquality panoramic images. A sequential image stitching procedure requires only keeping the current source image in memory during image stitching, which saves memory and is more suitable to mobile phone implementations."
+    },
+    "1bc43b56c0ea3c3a44e65dcecd1f9c364127f33c": {
+        "title": "Song recommendation with non-negative matrix factorization and graph total variation",
+        "authors": [
+            "Kirell Benzi",
+            "Vassilis Kalofolias",
+            "X. Bresson",
+            "P. Vandergheynst"
+        ],
+        "abstract": "This work formulates a novel song recommender system as a matrix completion problem that benefits from collaborative filtering through Non-negative Matrix Factorization (NMF) and content-based filtering via total variation (TV) on graphs. The graphs encode both playlist proximity information and song similarity, using a rich combination of audio, meta-data and social features. As we demonstrate, our hybrid recommendation system is very versatile and incorporates several well-known methods while outperforming them. Particularly, we show on real-world data that our model overcomes w.r.t. two evaluation metrics the recommendation of models solely based on low-rank information, graph-based information or a combination of both."
+    },
+    "1bc49abe5145055f1fa259bd4e700b1eb6b7f08d": {
+        "title": "SummaRuNNer: A Recurrent Neural Network based Sequence Model for Extractive Summarization of Documents",
+        "authors": [
+            "Ramesh Nallapati",
+            "Feifei Zhai",
+            "Bowen Zhou"
+        ],
+        "abstract": "We present SummaRuNNer, a Recurrent Neural Network (RNN) based sequence model for extractive summarization of documents and show that it achieves performance better than or comparable to state-of-the-art. Our model has the additional advantage of being very interpretable, since it allows visualization of its predictions broken up by abstract features such as information content, salience and novelty. Another novel contribution of our work is abstractive training of our extractive model that can train on human generated reference summaries alone, eliminating the need for sentence-level extractive labels."
+    },
+    "1bc4e985d27f1ab685e225b36c9f7dacdfa80694": {
+        "title": "A Mathematical Formalization of Hierarchical Temporal Memory\u2019s Spatial Pooler",
+        "authors": [
+            "James Mnatzaganian",
+            "Ernest Fokoue",
+            "D. Kudithipudi"
+        ],
+        "abstract": "Hierarchical temporal memory (HTM) is an emerging machine learning algorithm, with the potential to provide a means to perform predictions on spatiotemporal data. The algorithm, inspired by the neocortex, consists of two primary components, namely the spatial pooler (SP) and the temporal memory (TM). The SP is utilized to map similar inputs into generalized sparse distributed representations (SDRs). Those SDRs are then utilized by the TM, which performs sequence learning and prediction. One challenge with HTM is ensuring that proper SDRs are generated from the SP. If the SDRs are not generalizable, the TM will not be able to make proper predictions. This work focuses on the SP and its corresponding output SDRs. A single unifying mathematical framework was created for the SP. The primary learning mechanism was explored, where a maximum likelihood estimator for determining the degree of permanence update was proposed. The boosting mechanisms were studied and found to only be relevant during the initial few iterations of the network. Observations were made relating HTM to well-known algorithms such as competitive learning and attribute bagging. Methods were provided for using the SP for classification as well as dimensionality reduction. Empirical evidence verified that given the proper parameterizations, the SP may be used for feature learning. Similarity metrics were created for scoring the SDRs produced by the SP. The overlap metric proved that the SP is extremely robust to noise. The SP was able to produce similar outputs for a given input, provided the noise did not cause the input to change classes. This overlap metric was further utilized to create a classifier for novelty detection. The SP proved to be able to withstand more noise than the well-known support vector machine (SVM)."
+    },
+    "1bc55833179a0c7ce9dbaa99a0cd76c44cfb6cc9": {
+        "title": "Game strategies in network security",
+        "authors": [
+            "Kong-wei Lye",
+            "Jeannette M. Wing"
+        ],
+        "abstract": "This paper presents a game-theoretic method for analyzing the security of computer networks. We view the interactions between an attacker and the administrator as a two-player stochastic game and construct a model for the game. Using a nonlinear program, we compute Nash equilibria or best-response strategies for the players (attacker and administrator). We then explain why the strategies are realistic and how administrators can use these results to enhance the security of their network."
+    },
+    "1bc6ea86a8ed0a80406404693c675f11f6b8e454": {
+        "title": "Towards a Trust Management System for Cloud Computing",
+        "authors": [
+            "Sheikh Mahbub Habib",
+            "S. Ries",
+            "M. M\u00fchlh\u00e4user"
+        ],
+        "abstract": "Cloud computing provides cost-efficient opportunities for enterprises by offering a variety of dynamic, scalable, and shared services. Usually, cloud providers provide assurances by specifying technical and functional descriptions in Service Level Agreements (SLAs) for the services they offer. The descriptions in SLAs are not consistent among the cloud providers even though they offer services with similar functionality. Therefore, customers are not sure whether they can identify a trustworthy cloud provider only based on its SLA. To support the customers in reliably identifying trustworthy cloud providers, we propose a multi-faceted Trust Management (TM) system architecture for a cloud computing marketplace. This system provides means to identify the trustworthy cloud providers in terms of different attributes (e.g., security, performance, compliance) assessed by multiple sources and roots of trust information."
+    },
+    "1bc8a129675fbbb651d0a23f827ab867165088f9": {
+        "title": "Safe Exploration of State and Action Spaces in Reinforcement Learning",
+        "authors": [
+            "J. Garc\u00eda",
+            "F. Fern\u00e1ndez"
+        ],
+        "abstract": "In this paper, we consider the important problem of safe exploration in reinforcement learning. While reinforcement learning is well-suited to domains with complex transition dynamics and high-dimensional state-action spaces, an additional challenge is posed by the need for safe and efficient exploration. Traditional exploration techniques are not particularly useful for solving dangerous tasks, where the trial and error process may lead to the selection of actions whose execution in some states may result in damage to the learning system (or any other system). Consequently, when an agent begins an interaction with a dangerous and high-dimensional state-action space, an important question arises; namely, that of how to avoid (or at least minimize) damage caused by the exploration of the state-action space. We introduce the PI-SRL algorithm which safely improves suboptimal albeit robust behaviors for continuous state and action control tasks and which efficiently learns from the experience gained from the environment. We evaluate the proposed method in four complex tasks: automatic car parking, pole-balancing, helicopter hovering, and business management."
+    },
+    "1bca1d2075cd4ac4ef3325cbc8467723bb31863e": {
+        "title": "Offset-corrected 5GHz CMOS dynamic comparator using bulk voltage trimming: Design and analysis",
+        "authors": [
+            "Yongsheng Xu",
+            "L. Belostotski",
+            "J. Haslett"
+        ],
+        "abstract": "This paper presents an improved two-stage dynamic comparator using a bulk voltage trimming technique for offset calibration. The comparator requires only a one-phase clock while exerting no extra load on the first stage, leading to higher operating speed. The calibration does not require any extra power supply and does not consume any quiescent current, while increasing the offset calibrating range by a factor of 2 over previous techniques. Detailed analysis of the method of calibrating both stages of the dynamic comparator is provided. Simulation results in a 65nm digital CMOS process show that the comparator is capable of working at a speed of 5GHz with 90uW of power consumption from a 1V power supply, achieving an input-referred offset calibrating range of \u00b135mV at \u223c\u00b12.3mV/step at the typical-typical process corner."
+    },
+    "1bd13095dd38a31ad9089d067134e71eb69bae83": {
+        "title": "SARL: A General-Purpose Agent-Oriented Programming Language",
+        "authors": [
+            "Sebasti\u00e1n Marchante Rodr\u00edguez",
+            "N. Gaud",
+            "St\u00e9phane Galland"
+        ],
+        "abstract": "Complex software systems development require appropriate high-level features to better and easily tackle the new requirements in terms of interactions, concurrency and distribution. This requires a paradigm change in software engineering and corresponding programming languages. We are convinced that agent-oriented programming may be the support for this change by focusing on a small corpus of commonly accepted concepts and the corresponding programming language in line with the current developers' programming practices. This papers introduces SARL, a new general-purpose agent-oriented programming language undertaking this challenge. SARL comes with its full support in the Eclipse IDE for compilation and debugging, and a new version 2.0 of the Janus platform for execution purposes. The main perspective that guided the creation of SARL is the establishment of an open and easily extensible language. Our expectation is to provide the community with a common forum in terms of a first working test bed to study and compare various programming alternatives and associated metamodels."
+    },
+    "1bd27a9c5434699f6cab538f0bbb414246f09b0e": {
+        "title": "Trust and TAM in Online Shopping: An Integrated Model",
+        "authors": [
+            "D. Gefen",
+            "Elena Karahanna",
+            "D. Straub"
+        ],
+        "abstract": "Your use of the JSTOR archive indicates your acceptance of JSTOR's Terms and Conditions of Use, available at . http://www.jstor.org/page/info/about/policies/terms.jsp. JSTOR's Terms and Conditions of Use provides, in part, that unless you have obtained prior permission, you may not download an entire issue of a journal or multiple copies of articles, and you may use content in the JSTOR archive only for your personal, non-commercial use."
+    },
+    "1bd43bc8ec308a1ef3e9496868d8c6baa02e4f5d": {
+        "title": "Adaptive regularization of weight vectors",
+        "authors": [
+            "K. Crammer",
+            "S. Shieber",
+            "Mark Dredze"
+        ],
+        "abstract": "We present AROW, an online learning algorithm for binary and multiclass problems that combines large margin training, confidence weighting, and the capacity to handle non-separable data. AROW performs adaptive regularization of the prediction function upon seeing each new instance, allowing it to perform especially well in the presence of label noise. We derive mistake bounds for the binary and multiclass settings that are similar in form to the second order perceptron bound. Our bounds do not assume separability. We also relate our algorithm to recent confidence-weighted online learning techniques. Empirical evaluations show that AROW achieves state-of-the-art performance on a wide range of binary and multiclass tasks, as well as robustness in the face of non-separable data."
+    },
+    "1bd6460e7a06f4ca7857a0d3577bd7fc6fd4b1c9": {
+        "title": "BUILDING GENERALIZABLE AGENTS",
+        "authors": [
+            "Georgia Gkioxari",
+            "Yuandong Tian"
+        ],
+        "abstract": "Towards bridging the gap between machine and human intelligence, it is of utmost importance to introduce environments that are visually realistic and rich in content. In such environments, one can evaluate and improve a crucial property of practical intelligent systems, namely generalization. In this work, we build House3D, a rich, extensible and efficient environment that contains 45,622 human-designed 3D scenes of houses, ranging from single-room studios to multistoreyed houses, equipped with a diverse set of fully labeled 3D objects, textures and scene layouts, based on the SUNCG dataset (Song et al., 2017). With an emphasis on semantic-level generalization, we study the task of concept-driven navigation, RoomNav, using a subset of houses in House3D. In RoomNav, an agent navigates towards a target specified by a semantic concept. To succeed, the agent learns to comprehend the scene it lives in by developing perception, understand the concept by mapping it to the correct semantics, and navigate to the target by obeying the underlying physical rules. We train RL agents with both continuous and discrete action spaces and show their ability to generalize in new unseen environments. In particular, we observe that (1) training is substantially harder on large house sets but results in better generalization, (2) using semantic signals (e.g. segmentation mask) boosts the generalization performance, and (3) gated networks on semantic input signal lead to improved training performance and generalization. We hope House3D1, including the analysis of the RoomNav task, serves as a building block towards designing practical intelligent systems and we wish it to be broadly adopted by the community."
+    },
+    "1bdb595caa3fd39811fa777c3815bec2f7b21697": {
+        "title": "Fast Computation of Graph Kernels",
+        "authors": [
+            "Shruthi Vishwanathan",
+            "K. Borgwardt",
+            "N. Schraudolph"
+        ],
+        "abstract": "Using extensions of linear algebra concepts to Reproducing Kernel Hilbert Spaces (RKHS), we define a unifying framework for random walk kernels on graphs. Reduction to a Sylvester equation allows us to compute many of these kernels in O(n) worst-case time. This includes kernels whose previous worst-case time complexity was O(n), such as the geometric kernels of G\u00e4rtner et al. [1] and the marginal graph kernels of Kashima et al. [2]. Our algebra in RKHS allow us to exploit sparsity in directed and undirected graphs more effectively than previous methods, yielding sub-cubic computational complexity when combined with conjugate gradient solvers or fixed-point iterations. Experiments on graphs from bioinformatics and other application domains show that our algorithms are often more than 1000 times faster than existing approaches."
+    },
+    "1bdc66bf35f7443cea550eb82a691966761f1111": {
+        "title": "Web-based models for natural language processing",
+        "authors": [
+            "Mirella Lapata",
+            "F. L. Keller"
+        ],
+        "abstract": "Previous work demonstrated that Web counts can be used to approximate bigram counts, suggesting that Web-based frequencies should be useful for a wide variety of Natural Language Processing (NLP) tasks. However, only a limited number of tasks have so far been tested using Web-scale data sets. The present article overcomes this limitation by systematically investigating the performance of Web-based models for several NLP tasks, covering both syntax and semantics, both generation and analysis, and a wider range of n-grams and parts of speech than have been previously explored. For the majority of our tasks, we find that simple, unsupervised models perform better when n-gram counts are obtained from the Web rather than from a large corpus. In some cases, performance can be improved further by using backoff or interpolation techniques that combine Web counts and corpus counts. However, unsupervised Web-based models generally fail to outperform supervised state-of-the-art models trained on smaller corpora. We argue that Web-based models should therefore be used as a baseline for, rather than an alternative to, standard supervised models."
+    },
+    "1bdc68a8aa35cf214492ba67fcaaf71c2752a7ac": {
+        "title": "Learning to Optimize via Information-Directed Sampling",
+        "authors": [
+            "Daniel Russo",
+            "Benjamin Van Roy"
+        ],
+        "abstract": "We propose information-directed sampling \u2013 a new approach to online optimization problems in which a decision-maker must balance between exploration and exploitation while learning from partial feedback. Each action is sampled in a manner that minimizes the ratio between squared expected single-period regret and a measure of information gain: the mutual information between the optimal action and the next observation. We establish an expected regret bound for information-directed sampling that applies across a very general class of models and scales with the entropy of the optimal action distribution. We illustrate through simple analytic examples how information-directed sampling accounts for kinds of information that alternative approaches do not adequately address and that this can lead to dramatic performance gains. For the widely studied Bernoulli, Gaussian, and linear bandit problems, we demonstrate state-of-the-art simulation performance."
+    },
+    "1bdcf9e7a9a5e10acebb0ff37656badb6abadc4c": {
+        "title": "Domain Adaptation From Multiple Sources: A Domain-Dependent Regularization Approach",
+        "authors": [
+            "Lixin Duan",
+            "Dong Xu",
+            "I. Tsang"
+        ],
+        "abstract": "In this paper, we propose a new framework called domain adaptation machine (DAM) for the multiple source domain adaption problem. Under this framework, we learn a robust decision function (referred to as target classifier) for label prediction of instances from the target domain by leveraging a set of base classifiers which are prelearned by using labeled instances either from the source domains or from the source domains and the target domain. With the base classifiers, we propose a new domain-dependent regularizer based on smoothness assumption, which enforces that the target classifier shares similar decision values with the relevant base classifiers on the unlabeled instances from the target domain. This newly proposed regularizer can be readily incorporated into many kernel methods (e.g., support vector machines (SVM), support vector regression, and least-squares SVM (LS-SVM)). For domain adaptation, we also develop two new domain adaptation methods referred to as FastDAM and UniverDAM. In FastDAM, we introduce our proposed domain-dependent regularizer into LS-SVM as well as employ a sparsity regularizer to learn a sparse target classifier with the support vectors only from the target domain, which thus makes the label prediction on any test instance very fast. In UniverDAM, we additionally make use of the instances from the source domains as Universum to further enhance the generalization ability of the target classifier. We evaluate our two methods on the challenging TRECIVD 2005 dataset for the large-scale video concept detection task as well as on the 20 newsgroups and email spam datasets for document retrieval. Comprehensive experiments demonstrate that FastDAM and UniverDAM outperform the existing multiple source domain adaptation methods for the two applications."
+    },
+    "1bde4205a9f1395390c451a37f9014c8bea32a8a": {
+        "title": "3D object recognition in range images using visibility context",
+        "authors": [
+            "Eunyoung Kim",
+            "G. Medioni"
+        ],
+        "abstract": "Recognizing and localizing queried objects in range images plays an important role for robotic manipulation and navigation. Even though it has been steadily studied, it is still a challenging task for scenes with occlusion and clutter."
+    },
+    "1bdf90cc38336e6e627150e006fd58bcba201792": {
+        "title": "Human Postures Recognition Based on D-S Evidence Theory and Multi-sensor Data Fusion",
+        "authors": [
+            "Wenfeng Li",
+            "Junrong Bao",
+            "Xiuwen Fu",
+            "G. Fortino",
+            "Stefano Galzarano"
+        ],
+        "abstract": "Body Sensor Networks (BSNs) are conveying notable attention due to their capabilities in supporting humans in their daily life. In particular, real-time and noninvasive monitoring of assisted livings is having great potential in many application domains, such as health care, sport/fitness, e-entertainment, social interaction and e-factory. And the basic as well as crucial feature characterizing such systems is the ability of detecting human actions and behaviors. In this paper, a novel approach for human posture recognition is proposed. Our BSN system relies on an information fusion method based on the D-S Evidence Theory, which is applied on the accelerometer data coming from multiple wearable sensors. Experimental results demonstrate that the developed prototype system is able to achieve a recognition accuracy between 98.5% and 100% for basic postures (standing, sitting, lying, squatting)."
+    },
+    "1bdfdd4205c0ace6f0d5bb09dd606021a110cf36": {
+        "title": "The Evidence Framework Applied to Classification Networks",
+        "authors": [
+            "D. Mackay"
+        ],
+        "abstract": "Three Bayesian ideas are presented for supervised adaptive classifiers. First, it is argued that the output of a classifier should be obtained by marginalizing over the posterior distribution of the parameters; a simple approximation to this integral is proposed and demonstrated. This involves a \"moderation\" of the most probable classifier's outputs, and yields improved performance. Second, it is demonstrated that the Bayesian framework for model comparison described for regression models in MacKay (1992a,b) can also be applied to classification problems. This framework successfully chooses the magnitude of weight decay terms, and ranks solutions found using different numbers of hidden units. Third, an information-based data selection criterion is derived and demonstrated within this framework."
+    },
+    "1be0ccc5fbb9c574c3f99b382cb8171ead2e6f68": {
+        "title": "Power and energy management for server systems",
+        "authors": [
+            "R. Bianchini",
+            "R. Rajamony"
+        ],
+        "abstract": "This survey shows that heterogeneous server clusters can be made more efficient by conserving power and energy while exploiting information from the service level, such as request priorities established by service-level agreements."
+    },
+}
